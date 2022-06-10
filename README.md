@@ -34,7 +34,7 @@
 - ps -aux | grep "firefox" 
   ---> ?????????????????????????
 
-- mkdir *nombre de carpeta* 
+- mkdir "nombre de carpeta" 
   ---> Crea carpetas por medio de la terminal.
 
 - pwd 
@@ -94,37 +94,37 @@
 - history 
   ---> Muestra el registro de los comandos usados que se usaron en la terminal.
 
-- history > *archivo de texto*.txt 
+- history > "archivo de texto".txt 
   ---> Crea un archivo de texto que guarda los comandos utilizados en el registro.
 
-- head -n 3 *archivo de texto*.txt 
+- head -n 3 "archivo de texto".txt 
   ---> Muestra las líneas que el usuario específicamente quiere ver al inicio. 
 
-- tail -n 3 *archivo de texto*.txt 
+- tail -n 3 "archivo de texto".txt 
   ---> Muestra las líneas que el usuario quiere ver al final.
 
-- cat *archivo de texto*.txt | more 
+- cat "archivo de texto".txt | more 
   ---> Muestra la impresión del archivo por partes, el cual contiene un "Más" al final para ver más información.
 
 - cp 
   ---> Copia el elemento seleccionado
 
-- cp *archivo de texto*.txt *nombre de carpeta*/ 
+- cp "archivo de texto".txt "nombre de carpeta"/ 
   ---> Copia el archivo y lo pega a un directorio específico.
 
 - mv 
   ---> Mueve el elemento seleccionado.
 
-- mv *archivo de texto*.txt Mario/ 
+- mv "archivo de texto".txt *nombre de carpeta"/ 
   ---> Mueve la carpeta a un directorio específico.
 
 - rm  
   ---> Remueve el elemento seleccionado.
 
-- rm *archivo de texto*.txt 
+- rm "archivo de texto".txt 
   ---> Remueve el archivo con base en su nombre.
 
-- rm *nombre de carpeta* / -R 
+- rm "nombre de carpeta" / -R 
   ---> Remueve todas las carpetas que hay en ese directorio.
 
 - rm / -Rf 
