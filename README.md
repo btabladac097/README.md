@@ -1,96 +1,140 @@
 # README.md
 # 1er Curso de Sistemas Operativos - Bryan Tablada Corella - Universidad Latinoamericana de Ciencia y Tecnología - ULACIT- 2022
 
-- sudo reboot (reinicia la máquina virtual de manera forzada)
+- sudo reboot 
+  Reinicia la máquina virtual de manera forzada.
 
-- ps -aux ( modifica o muestra el comportamiento del sistema en un tiempo determinado ).
+- ps -aux  
+  Modifica o muestra el comportamiento del sistema en un tiempo determinado.
 
-- top (muestra el comportamiento del sistema en tiempo real)
+- top 
+  Muestra el comportamiento del sistema en tiempo real.
 
-- htop (muestra el comportamiento del sistema en tiempo real de forma más detallada).
+- htop 
+  Muestra el comportamiento del sistema en tiempo real de forma más detallada.
 
-- pstree (Demostración del árbol de procesos del sistema).
+- pstree 
+  Demostración del árbol de procesos del sistema.
 
-- man ps (Manual de comandos que muestra sus nombres, sinopsis y descripciones detalladas de cada uno).
+- man ps 
+  Manual de comandos que muestra sus nombres, sinopsis y descripciones detalladas de cada uno.
 
-- ps -e (muestra todos los procesos del sistema usando sintaxis estándar).
+- ps -e 
+  Muestra todos los procesos del sistema usando sintaxis estándar.
 
--"ls" para listar el contenido del directorio actual
+-"ls" 
+  Lista el contenido del directorio actual.
 
-- "ls /bin -l" / mostrar el contenido de una capeta
+- "ls /bin -l"
+  Mostrar el contenido de una capeta.
 
-- "ls -l" / muestra el contenido como una lsta
+- "ls -l" 
+  Muestra el contenido como una lista.
 
-- "ps -aux | grep "firefox" " / 
+- ps -aux | grep "firefox" 
+--------------------------------------------------------- 
 
-- mkdir *nombre de carpeta* / Crea carpetas
+- mkdir *nombre de carpeta* 
+  Crea carpetas por medio de la terminal.
 
-- pwd / muestra el directorio actual
+- pwd 
+  Muestra el directorio actual que se está usando.
 
-- cd *carpeta* / cambiarse a la carpeta seleccionada
+- cd *carpeta* 
+  Cambia a la carpeta a la carpeta que se seleccionó.
 
-- cd / devuelve siempre a la raíz del home
+- cd
+  El comando devuelve siempre a la raíz del home.
 
-- cd.. / devuelve a la ubicación que está más atrás
+- cd..
+  Devuelve a la ubicación que está más atrás.
 
-- sudo adduser test / agrega un nuevo usuario
+- sudo adduser test 
+  Agrega un nuevo usuario a la máquina virtual.
 
-- passwd test / para cambiar la contraseña del usuario
+- passwd test
+  Cambia la contraseña del usuario actual.
 
-- sudo passwd root / le cambia la contraseña al usuario roo
+- sudo passwd root 
+  Cambia forzadamente la contraseña al usuario root.
 
-- sudo userel test / borrar el usuario
+- sudo userel test 
+  Borra el usuario actual.
 
-- su test /  se hace el cambio de usuario
+- su test 
+  Realiza el cambio de usuario.
 
-- whoami / indica el usuario qu está logeado en el momento.
+- whoami 
+  Indica el usuario que está logueado actualmente.
 
-- exit / realiza el cierre de sesión del usuario actual
+- exit  
+  Realiza el cierre de sesión del usuario actual.
 
-- sudo su / iniciar sesión como administrador
+- sudo su 
+  Inicia sesión como administrador.
 
-- clear / limpia la interfaz 
+- clear
+  Limpia la interfaz de la terminal.
 
-- nano / un notepad versión terminal
+- nano 
+  Muestra un notepad que es representado por medio de la terminal.
 
-- nano archivo.txt / abre el archivo seleccionado
+- nano archivo.txt 
+  Abre el archivo seleccionado.
 
-- cat / muestra el contenido de un archivo en la terminal
+- cat  
+  Muestra el contenido de un archivo en la terminal.
 
-- sudo apt install cowsay / muestra una vaca en la terminal
+- sudo apt install cowsay 
+  Muestra una vaca en la terminal.
 
-- telnet towel.blinkenlights.nl / muestra el capítulo 4 de StarWars
+- telnet towel.blinkenlights.nl 
+  Muestra el capítulo 4 de Starwars en la terminal.
 
-- con crtl + c / se cierra la terminal
+- history 
+  Muestra el registro de los comandos usados que se usaron en la terminal.
 
-- history / muestra el registro de los comandos usados
+- history > *archivo de texto*.txt 
+  Crea un archivo de texto que guarda los comandos utilizados en el registro.
 
-- history > semana3.txt / crea un archivo de texto que guarda los comandos utilizados en el registro
+- head -n 3 *archivo de texto*.txt 
+  Muestra las líneas que el usuario específicamente quiere ver al inicio. 
 
-- head -n 3 semana3.txt / muestra las líneas que el usuario específicamente quiere ver al inicio. 
+- tail -n 3 *archivo de texto*.txt 
+  Muestra las líneas que el usuario quiere ver al final
 
-- tail -n 3 semana3.txt / muestra las líneas que el usuario quiere ver al final
+- cat *archivo de texto*.txt | more 
+  Muestra la impresión del archivo por partes, el cual contiene un "Más" al final para ver más información.
 
-- cat semana3.txt | more / muestra la impresión del archivo por partes con un más al final 
+- cp 
+  Copia el elemento seleccionado
 
-- cp / copiar
+- cp *archivo de texto*.txt *nombre de carpeta*/ 
+  Copia el archivo y lo pega a un directorio específico.
 
-- cp semana3.txt Mario/  // copia el archivo a un directorio específico
+- mv 
+  Mueve el elemento seleccionado
 
-- mv / mover
+- mv *archivo de texto*.txt Mario/ 
+  Mueve la carpeta a un directorio específico.
 
-- mv semana3.txt Mario/ mueve la carpeta a un directorio específico
+- rm  
+  Remueve el elemento seleccionado
 
-- rm / remover
+- rm *archivo de texto*.txt 
+  Remueve el archivo con base en su nombre.
 
-- rm seman3.txt / remueve el archivo específico
+- rm *nombre de carpeta* / -R 
+  Remueve todas las carpetas que hay en ese directorio.
 
-- rm MArio / -R / remueve todas las carpetas que hay en ese directorio
+- rm / -Rf 
+  ------------------------------------------------------------------
 
--rm / -Rf /
+- dpkg -i xxx.deb 
+  Instalar un paquete que se haya descargado.
 
-- dpkg -i xxx.deb / instalar un paquete que se haya bajado
-
-- alias / ponerle un alias a un comando / alias listar="ls -l"
+- alias 
+  Le pone un nombre alternativo o un alias a un comando específico.
+  -> Ejemplo: alias listar="ls -l"
 
 
