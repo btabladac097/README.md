@@ -32,7 +32,7 @@
   ---> Muestra el contenido como una lista.
 
 - ps -aux | grep "firefox" 
-  ---> ?????????????????????????
+  ---> lista todos los procesos que están corriendo actualmente y filtra los procesos de firefox
 
 - mkdir "nombre de carpeta" 
   ---> Crea carpetas por medio de la terminal.
@@ -128,7 +128,7 @@
   ---> Remueve todas las carpetas que hay en ese directorio.
 
 - rm / -Rf 
- ---> ???????????????????????? 
+ ---> Borra toda la información dentro del disco duro
  
 - dpkg -i xxx.deb 
   ---> Instalar un paquete que se haya descargado.
@@ -137,4 +137,4 @@
   ---> Le pone un nombre alternativo o un alias a un comando específico.
   -> Ejemplo: alias listar="ls -l"
 
-
+- 
