@@ -1,13 +1,19 @@
 # README.md
 # 1er Curso de Sistemas Operativos - Bryan Tablada Corella - Universidad Latinoamericana de Ciencia y Tecnología - ULACIT- 2022
 
+| First Header  | Second Header | Photos |
+| ------------- | ------------- | ------------- |
+| sudo reboot | Reinicia la máquina virtual de manera forzada. | 
+| ps -aux  | Reinicia la máquina virtual de manera forzada.  |
+| top | Muestra el comportamiento del sistema en tiempo real. | ![top](https://user-images.githubusercontent.com/106645591/174903059-b09c9206-7b85-46e7-b6bf-2f9eabf91111.png) |
+
+
 - sudo reboot 
   ---> Reinicia la máquina virtual de manera forzada.
 <img src="https://user-images.githubusercontent.com/106645591/174902497-4ce24ed5-0f65-4243-ab87-bc33f151f70f.png" width="15%"></img> 
 
 - ps -aux  
   ---> Modifica o muestra el comportamiento del sistema en un tiempo determinado.
-<img src="https://user-images.githubusercontent.com/106645591/174902808-48511cc2-672a-46c4-b638-524bcf2ce7c5.png" width="15%"></img> 
 
 - top 
   ---> Muestra el comportamiento del sistema en tiempo real.
@@ -85,24 +91,34 @@
   ---> Realiza el cambio de usuario.
 ![su test](https://user-images.githubusercontent.com/106645591/174906232-8ecd9381-9c31-43ec-8d6b-e301643f1ec3.png)
 
-
 - whoami 
   ---> Indica el usuario que está logueado actualmente.
+![whoami](https://user-images.githubusercontent.com/106645591/174919653-e5c75d40-1e1a-43ad-8d53-f0c1313238f5.png)
 
 - exit  
   ---> Realiza el cierre de sesión del usuario actual.
+  ![exit1](https://user-images.githubusercontent.com/106645591/174919794-7da03801-b9ee-40bf-b5ba-c643920f3019.png)
+  ![exit2](https://user-images.githubusercontent.com/106645591/174919848-9b075fb7-509c-46e8-9d1f-361ceaf9d004.png)
 
 - sudo su 
   ---> Inicia sesión como administrador.
+  ![sudo su](https://user-images.githubusercontent.com/106645591/174920312-758fa4d0-be9c-46e9-91a0-d963fdb9e9e2.png)
 
 - clear
-  --->Limpia la interfaz de la terminal.
+  ---> Limpia la interfaz de la terminal.
+  ![clear1](https://user-images.githubusercontent.com/106645591/174920480-ddb1f012-3bfa-4a8f-9dd7-15cbf3ba42f0.png)
+  
+  ![clear2](https://user-images.githubusercontent.com/106645591/174920512-f138da72-1110-443f-9c0a-2921f534d10f.png)
 
 - nano 
   ---> Muestra un notepad que es representado por medio de la terminal.
+  ![nano](https://user-images.githubusercontent.com/106645591/174921414-0e69db96-34ef-4329-b005-0e9a351eb89d.png)
+
 
 - nano archivo.txt 
   ---> Abre el archivo seleccionado.
+  ![nano archivo.txt](https://user-images.githubusercontent.com/106645591/174921808-88f5b2a0-b4e4-40d4-8e72-53af5bda7095.png)
+
 
 - cat  
   ---> Muestra el contenido de un archivo en la terminal.
@@ -159,4 +175,5 @@
   ---> Le pone un nombre alternativo o un alias a un comando específico.
   -> Ejemplo: alias listar="ls -l"
 
-- 
+- sudo chmod 777 *archivo*
+  -> Cambiar permisos de administrador
