@@ -37,7 +37,7 @@
 | history > "archivo de texto".txt | Crea un archivo de texto que guarda los comandos utilizados en el registro. | ![image](https://user-images.githubusercontent.com/106645591/178367572-028b0107-0fde-4e0c-8d97-0ae695e850ee.png) |
 | head -n 3 "archivo de texto".txt  | Muestra las líneas que el usuario específicamente quiere ver al inicio.| ![image](https://user-images.githubusercontent.com/106645591/178367646-0c39bd6e-e5a7-454b-9bea-cca006f2d1fe.png) |
 | tail -n 3 "archivo de texto".txt  | Muestra las líneas que el usuario quiere ver al final. | ![image](https://user-images.githubusercontent.com/106645591/178367702-eb275ee6-b1dd-4c5c-b5e6-e21149295bbe.png) |
-| cat "archivo de texto".txt | more | Muestra la impresión del archivo por partes, el cual contiene un "Más" al final para ver más información. | ![image](https://user-images.githubusercontent.com/106645591/178367952-d955ac86-5cd8-4116-b7d8-205233be58b0.png) |
+| cat "archivo de texto".txt *línea vertical* more | Muestra la impresión del archivo por partes, el cual contiene un "Más" al final para ver más información. | ![image](https://user-images.githubusercontent.com/106645591/178367952-d955ac86-5cd8-4116-b7d8-205233be58b0.png) |
 | cp | Copia el elemento seleccionado | ![image](https://user-images.githubusercontent.com/106645591/178368147-719ff868-391f-406e-afff-8e94208a2bdd.png) |
 | cp "archivo de texto".txt "nombre de carpeta"/ | Copia el archivo y lo pega a un directorio específico. | ![image](https://user-images.githubusercontent.com/106645591/178368152-cd689e15-8a42-42f0-8f38-e32680c06793.png) |
 | mv  | Mueve el elemento seleccionado. | ![image](https://user-images.githubusercontent.com/106645591/178368725-5e73f710-a8a5-42b3-aa0d-79517567361b.png) |
