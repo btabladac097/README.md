@@ -46,9 +46,9 @@
 | rm "archivo de texto".txt | Remueve el archivo con base en su nombre. | ![image](https://user-images.githubusercontent.com/106645591/178369104-9a9e223d-2610-4834-9a41-afd27e9cc282.png) |
 | rm "nombre de carpeta" / -R  | Remueve todas las carpetas que hay en ese directorio. | ![image](https://user-images.githubusercontent.com/106645591/178369210-9029364a-1f0f-4578-99df-6a4232697f26.png) |
 | rm / -Rf   | Borra toda la información dentro del disco duro. | ![image](https://user-images.githubusercontent.com/106645591/178369839-d841d37f-0714-4e2a-88fe-168a1cdcba4f.png)|
-| dpkg -i xxx.deb | Instalar un paquete que se haya descargado. | Photos |
-| alias  | Le pone un nombre alternativo o un alias a un comando específico. | Photos |
-| sudo chmod 777 *archivo*  | Cambiar permisos de administrador. | Photos |
+| dpkg -i xxx.deb | Instalar un paquete que se haya descargado. | ![image](https://user-images.githubusercontent.com/106645591/178372043-fffe67a6-c015-4780-b00d-9b72c107c32e.png) |
+| alias  | Le pone un nombre alternativo o un alias a un comando específico. | ![image](https://user-images.githubusercontent.com/106645591/178372098-629363db-36c5-4733-9ed1-c0521ffa5c2e.png) |
+| sudo chmod 777 *archivo*  | Cambiar permisos de administrador. | ![image](https://user-images.githubusercontent.com/106645591/178372146-7bed7887-9625-4651-be9a-3a9560006188.png) |
 | cat /proc/meminfo | Ver información de la memoria | ![image](https://user-images.githubusercontent.com/106645591/178168658-9d80a8d5-91a5-40e5-9d85-c51bf7888682.png)|
 | for file in /proc/*/status ; do awk '/VmSwap|Name/{printf $2 " " $3}END{ print ""}' $file;done | sort -k 2 -n -r |less | Menciona cuánto está gastando de memoria virtual cada proceso | Photos |
 | free -h  | Muestra un cuadro indicando información de la memoria y del swap | ![image](https://user-images.githubusercontent.com/106645591/178169451-c75dd650-95b9-452e-94bc-aee36bc9a422.png) |
