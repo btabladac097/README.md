@@ -30,11 +30,6 @@
 | clear  |  Limpia la interfaz de la terminal. | ![clear1](https://user-images.githubusercontent.com/106645591/174920480-ddb1f012-3bfa-4a8f-9dd7-15cbf3ba42f0.png)|
 | nano | Muestra un notepad que es representado por medio de la terminal. | ![nano](https://user-images.githubusercontent.com/106645591/174921414-0e69db96-34ef-4329-b005-0e9a351eb89d.png)|
 | nano archivo.txt | Abre el archivo seleccionado. | ![nano archivo.txt](https://user-images.githubusercontent.com/106645591/174921808-88f5b2a0-b4e4-40d4-8e72-53af5bda7095.png)|
-| cat |  Muestra el contenido de un archivo en la terminal. | Photos |
-| sudo apt install cowsay  | Muestra una vaca en la terminal. | Photos |
-| telnet towel.blinkenlights.nl | Muestra el capítulo 4 de Starwars en la terminal. | Photos |
-| history  | Muestra el registro de los comandos usados que se usaron en la terminal. | Photos |
-| history > "archivo de texto".txt | Crea un archivo de texto que guarda los comandos utilizados en el registro. | Photos |
 | cat  | Muestra el contenido de un archivo en la terminal. | ![image](https://user-images.githubusercontent.com/106645591/178366282-a1e29dc3-f2db-485d-b047-e47c2eee169c.png) |
 | sudo apt install cowsay | Muestra una vaca en la terminal. | ![image](https://user-images.githubusercontent.com/106645591/178367065-2cb1c63a-49a9-4963-b2d8-e8b5cc42e78a.png) |
 | telnet towel.blinkenlights.nl | Muestra el capítulo 4 de Starwars en la terminal. | ![image](https://user-images.githubusercontent.com/106645591/178367255-ab389c72-3045-4446-80db-2b4ea9190d09.png) |
@@ -54,13 +49,10 @@
 | dpkg -i xxx.deb | Instalar un paquete que se haya descargado. | Photos |
 | alias  | Le pone un nombre alternativo o un alias a un comando específico. | Photos |
 | sudo chmod 777 *archivo*  | Cambiar permisos de administrador. | Photos |
-
-  
 | cat /proc/meminfo | Ver información de la memoria | ![image](https://user-images.githubusercontent.com/106645591/178168658-9d80a8d5-91a5-40e5-9d85-c51bf7888682.png)|
 | for file in /proc/*/status ; do awk '/VmSwap|Name/{printf $2 " " $3}END{ print ""}' $file;done | sort -k 2 -n -r |less | Menciona cuánto está gastando de memoria virtual cada proceso | Photos |
 | free -h  | Muestra un cuadro indicando información de la memoria y del swap | ![image](https://user-images.githubusercontent.com/106645591/178169451-c75dd650-95b9-452e-94bc-aee36bc9a422.png) |
 | swapon | Comando que activa el swap | ![image](https://user-images.githubusercontent.com/106645591/178169543-c2adc628-b7c9-4a53-83d0-8a77d3be6119.png) |
 | swapoff | Comando que desactiva el swap | ![image](https://user-images.githubusercontent.com/106645591/178169565-23b1794a-7824-49df-8467-fe70ee6b2cdb.png) | 
 | cat/proc/sys/vm/swappiness  | Description | Photos |
-  
-  | Command  | Description | Photos |
+| Command  | Description | Photos |
