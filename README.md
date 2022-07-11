@@ -90,7 +90,20 @@
 
 - alias 
   ---> Le pone un nombre alternativo o un alias a un comando específico.
-  -> Ejemplo: alias listar="ls -l"
-
+  
 - sudo chmod 777 *archivo*
   -> Cambiar permisos de administrador
+  
+  | cat /proc/meminfo | Ver información de la memoria | ![image](https://user-images.githubusercontent.com/106645591/178168658-9d80a8d5-91a5-40e5-9d85-c51bf7888682.png)|
+  
+  | for file in /proc/*/status ; do awk '/VmSwap|Name/{printf $2 " " $3}END{ print ""}' $file;done | sort -k 2 -n -r |less | Menciona cuánto está gastando de memoria virtual cada proceso | Photos |
+  
+  | free -h  | Muestra un cuadro indicando información de la memoria y del swap | ![image](https://user-images.githubusercontent.com/106645591/178169451-c75dd650-95b9-452e-94bc-aee36bc9a422.png) |
+  
+  | swapon | Comando que activa el swap | ![image](https://user-images.githubusercontent.com/106645591/178169543-c2adc628-b7c9-4a53-83d0-8a77d3be6119.png) |
+  
+  | swapoff | Comando que desactiva el swap | ![image](https://user-images.githubusercontent.com/106645591/178169565-23b1794a-7824-49df-8467-fe70ee6b2cdb.png) |
+  
+  | cat/proc/sys/vm/swappiness  | Description | Photos |
+  
+  | Command  | Description | Photos |
