@@ -35,75 +35,32 @@
 | telnet towel.blinkenlights.nl | Muestra el capítulo 4 de Starwars en la terminal. | Photos |
 | history  | Muestra el registro de los comandos usados que se usaron en la terminal. | Photos |
 | history > "archivo de texto".txt | Crea un archivo de texto que guarda los comandos utilizados en el registro. | Photos |
+| cat  | Muestra el contenido de un archivo en la terminal. | ![image](https://user-images.githubusercontent.com/106645591/178366282-a1e29dc3-f2db-485d-b047-e47c2eee169c.png) |
+| sudo apt install cowsay | Muestra una vaca en la terminal. | ![image](https://user-images.githubusercontent.com/106645591/178367065-2cb1c63a-49a9-4963-b2d8-e8b5cc42e78a.png) |
+| telnet towel.blinkenlights.nl | Muestra el capítulo 4 de Starwars en la terminal. | ![image](https://user-images.githubusercontent.com/106645591/178367255-ab389c72-3045-4446-80db-2b4ea9190d09.png) |
+| history  | Muestra el registro de los comandos usados que se usaron en la terminal. | ![image](https://user-images.githubusercontent.com/106645591/178367315-137b030d-1299-4bed-bb43-220706c00f69.png) |
+| history > "archivo de texto".txt | Crea un archivo de texto que guarda los comandos utilizados en el registro. | ![image](https://user-images.githubusercontent.com/106645591/178367572-028b0107-0fde-4e0c-8d97-0ae695e850ee.png) |
+| head -n 3 "archivo de texto".txt  | Muestra las líneas que el usuario específicamente quiere ver al inicio.| ![image](https://user-images.githubusercontent.com/106645591/178367646-0c39bd6e-e5a7-454b-9bea-cca006f2d1fe.png) |
+| tail -n 3 "archivo de texto".txt  | Muestra las líneas que el usuario quiere ver al final. | ![image](https://user-images.githubusercontent.com/106645591/178367702-eb275ee6-b1dd-4c5c-b5e6-e21149295bbe.png) |
+| cat "archivo de texto".txt | more | Muestra la impresión del archivo por partes, el cual contiene un "Más" al final para ver más información. | ![image](https://user-images.githubusercontent.com/106645591/178367952-d955ac86-5cd8-4116-b7d8-205233be58b0.png) |
+| cp | Copia el elemento seleccionado | ![image](https://user-images.githubusercontent.com/106645591/178368147-719ff868-391f-406e-afff-8e94208a2bdd.png) |
+| cp "archivo de texto".txt "nombre de carpeta"/ | Copia el archivo y lo pega a un directorio específico. | ![image](https://user-images.githubusercontent.com/106645591/178368152-cd689e15-8a42-42f0-8f38-e32680c06793.png) |
+| mv  | Mueve el elemento seleccionado. | ![image](https://user-images.githubusercontent.com/106645591/178368725-5e73f710-a8a5-42b3-aa0d-79517567361b.png) |
+| mv "archivo de texto".txt *nombre de carpeta"/ | Mueve la carpeta a un directorio específico. | ![image](https://user-images.githubusercontent.com/106645591/178368729-d4aa4303-a6b4-44ec-87eb-f6dbefecca7d.png) |
+| rm  | Remueve el elemento seleccionado. | ![image](https://user-images.githubusercontent.com/106645591/178369100-f2f15077-bbf5-46ed-83c0-fadbf160b1ce.png) |
+| rm "archivo de texto".txt | Remueve el archivo con base en su nombre. | ![image](https://user-images.githubusercontent.com/106645591/178369104-9a9e223d-2610-4834-9a41-afd27e9cc282.png) |
+| rm "nombre de carpeta" / -R  | Remueve todas las carpetas que hay en ese directorio. | ![image](https://user-images.githubusercontent.com/106645591/178369210-9029364a-1f0f-4578-99df-6a4232697f26.png) |
+| rm / -Rf   | Borra toda la información dentro del disco duro. | ![image](https://user-images.githubusercontent.com/106645591/178369839-d841d37f-0714-4e2a-88fe-168a1cdcba4f.png)|
+| dpkg -i xxx.deb | Instalar un paquete que se haya descargado. | Photos |
+| alias  | Le pone un nombre alternativo o un alias a un comando específico. | Photos |
+| sudo chmod 777 *archivo*  | Cambiar permisos de administrador. | Photos |
 
-
-- cat  
-  ---> Muestra el contenido de un archivo en la terminal.
-
-- sudo apt install cowsay 
-  ---> Muestra una vaca en la terminal.
-
-- telnet towel.blinkenlights.nl 
-  ---> Muestra el capítulo 4 de Starwars en la terminal.
-
-- history 
-  ---> Muestra el registro de los comandos usados que se usaron en la terminal.
-
-- history > "archivo de texto".txt 
-  ---> Crea un archivo de texto que guarda los comandos utilizados en el registro.
-
-- head -n 3 "archivo de texto".txt 
-  ---> Muestra las líneas que el usuario específicamente quiere ver al inicio. 
-
-- tail -n 3 "archivo de texto".txt 
-  ---> Muestra las líneas que el usuario quiere ver al final.
-
-- cat "archivo de texto".txt | more 
-  ---> Muestra la impresión del archivo por partes, el cual contiene un "Más" al final para ver más información.
-
-- cp 
-  ---> Copia el elemento seleccionado
-
-- cp "archivo de texto".txt "nombre de carpeta"/ 
-  ---> Copia el archivo y lo pega a un directorio específico.
-
-- mv 
-  ---> Mueve el elemento seleccionado.
-
-- mv "archivo de texto".txt *nombre de carpeta"/ 
-  ---> Mueve la carpeta a un directorio específico.
-
-- rm  
-  ---> Remueve el elemento seleccionado.
-
-- rm "archivo de texto".txt 
-  ---> Remueve el archivo con base en su nombre.
-
-- rm "nombre de carpeta" / -R 
-  ---> Remueve todas las carpetas que hay en ese directorio.
-
-- rm / -Rf 
- ---> Borra toda la información dentro del disco duro
- 
-- dpkg -i xxx.deb 
-  ---> Instalar un paquete que se haya descargado.
-
-- alias 
-  ---> Le pone un nombre alternativo o un alias a un comando específico.
   
-- sudo chmod 777 *archivo*
-  -> Cambiar permisos de administrador
-  
-  | cat /proc/meminfo | Ver información de la memoria | ![image](https://user-images.githubusercontent.com/106645591/178168658-9d80a8d5-91a5-40e5-9d85-c51bf7888682.png)|
-  
-  | for file in /proc/*/status ; do awk '/VmSwap|Name/{printf $2 " " $3}END{ print ""}' $file;done | sort -k 2 -n -r |less | Menciona cuánto está gastando de memoria virtual cada proceso | Photos |
-  
-  | free -h  | Muestra un cuadro indicando información de la memoria y del swap | ![image](https://user-images.githubusercontent.com/106645591/178169451-c75dd650-95b9-452e-94bc-aee36bc9a422.png) |
-  
-  | swapon | Comando que activa el swap | ![image](https://user-images.githubusercontent.com/106645591/178169543-c2adc628-b7c9-4a53-83d0-8a77d3be6119.png) |
-  
-  | swapoff | Comando que desactiva el swap | ![image](https://user-images.githubusercontent.com/106645591/178169565-23b1794a-7824-49df-8467-fe70ee6b2cdb.png) |
-  
-  | cat/proc/sys/vm/swappiness  | Description | Photos |
+| cat /proc/meminfo | Ver información de la memoria | ![image](https://user-images.githubusercontent.com/106645591/178168658-9d80a8d5-91a5-40e5-9d85-c51bf7888682.png)|
+| for file in /proc/*/status ; do awk '/VmSwap|Name/{printf $2 " " $3}END{ print ""}' $file;done | sort -k 2 -n -r |less | Menciona cuánto está gastando de memoria virtual cada proceso | Photos |
+| free -h  | Muestra un cuadro indicando información de la memoria y del swap | ![image](https://user-images.githubusercontent.com/106645591/178169451-c75dd650-95b9-452e-94bc-aee36bc9a422.png) |
+| swapon | Comando que activa el swap | ![image](https://user-images.githubusercontent.com/106645591/178169543-c2adc628-b7c9-4a53-83d0-8a77d3be6119.png) |
+| swapoff | Comando que desactiva el swap | ![image](https://user-images.githubusercontent.com/106645591/178169565-23b1794a-7824-49df-8467-fe70ee6b2cdb.png) | 
+| cat/proc/sys/vm/swappiness  | Description | Photos |
   
   | Command  | Description | Photos |
