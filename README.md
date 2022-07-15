@@ -54,5 +54,8 @@
 | free -h  | Muestra un cuadro indicando información de la memoria y del swap | ![image](https://user-images.githubusercontent.com/106645591/178169451-c75dd650-95b9-452e-94bc-aee36bc9a422.png) |
 | swapon | Comando que activa el swap | ![image](https://user-images.githubusercontent.com/106645591/178169543-c2adc628-b7c9-4a53-83d0-8a77d3be6119.png) |
 | swapoff | Comando que desactiva el swap | ![image](https://user-images.githubusercontent.com/106645591/178169565-23b1794a-7824-49df-8467-fe70ee6b2cdb.png) | 
-| cat/proc/sys/vm/swappiness  | Description | Photos |
-| Command  | Description | Photos |
+| cat/proc/sys/vm/swappiness  | Indica cuánto está utilizando el sistema operativo de memoria swamp | Photos |
+| sudo sysctl vm.swappiness=45  | Cambiar el valor del swampiness | Photos |
+| sudo mkdir /mnt/ram_disk  | Crea una carpeta para montar el RAM Disk | Photos |
+| sudo mount -t tmpfs -o size=1024m new_ram_disk /mnt/ram_disk  | Monta el RAM Disk en la carpeta /mnt/ram_disk | Photos |
+| apt-get install volatility  | Crea un archivo que tiene todo el contenido de la memoria RAM | Photos |
