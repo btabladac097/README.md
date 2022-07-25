@@ -59,3 +59,10 @@
 | sudo mkdir /mnt/ram_disk  | Crea una carpeta para montar el RAM Disk | ![image](https://user-images.githubusercontent.com/106645591/179872785-e96112a7-891e-4490-8f17-e9f204878fb5.png) |
 | sudo mount -t tmpfs -o size=1024m new_ram_disk /mnt/ram_disk  | Monta el RAM Disk en la carpeta /mnt/ram_disk | Photos |
 | apt-get install volatility  | Crea un archivo que tiene todo el contenido de la memoria RAM | Photos |
+| df -h  | Muestra el espacio que se ha usado en el disco | ![image](https://user-images.githubusercontent.com/106645591/180883126-1c5e8399-bcc2-425c-b680-c006f175453d.png)|
+| mount  | Montaje de dispositivos en el sistema de archivos | ![image](https://user-images.githubusercontent.com/106645591/180883635-a8a69317-ba12-4450-97cb-5fc947dcbb53.png)|
+| Gparted  | Administra las particiones | Photos |
+| gnome-disk-utility  | Muestra la información sobre el disco | Photos |
+| kill -9$PID  | Mata un proceso en la terminal | ![image](https://user-images.githubusercontent.com/106645591/180883909-8fbe7a3c-44c8-436d-afd9-e25287f6ba8f.png) |
+| ps -aux | Muestra los procesos que se están llevando a cabo actualmente | ![image](https://user-images.githubusercontent.com/106645591/180883938-e910e5e5-75dd-4901-8529-fb2c2fd57f0c.png) |
+| pwd | Muestra el directorio actual | ![image](https://user-images.githubusercontent.com/106645591/180883984-53065bc4-1c08-41f1-8a08-47f8ed852354.png) |
