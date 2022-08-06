@@ -4,7 +4,7 @@
 | Command  | Description | Photos |
 | ------------- | ------------- | ------------- |
 | sudo reboot | Reinicia la máquina virtual de manera forzada. | ![image](https://user-images.githubusercontent.com/106645591/175173653-ed5f3a52-08fc-43e2-a451-962a06e4247f.png) |
-| ps -aux  | Reinicia la máquina virtual de manera forzada.  | ![image](https://user-images.githubusercontent.com/106645591/175174018-dde9f0db-fd08-4190-9f37-cc462addc604.png)|
+| ps -aux  | Muestra los procesos actuales de la máquina.  | ![image](https://user-images.githubusercontent.com/106645591/175174018-dde9f0db-fd08-4190-9f37-cc462addc604.png)|
 | top | Muestra el comportamiento del sistema en tiempo real. | ![top](https://user-images.githubusercontent.com/106645591/174903059-b09c9206-7b85-46e7-b6bf-2f9eabf91111.png) |
 | htop | Muestra el comportamiento del sistema en tiempo real. | ![htop](https://user-images.githubusercontent.com/106645591/174903280-42254313-a37e-4707-b7e4-11b07de64b13.png) |
 | pstree | Demostración del árbol de procesos del sistema. | ![pstree](https://user-images.githubusercontent.com/106645591/174903467-ed403e7d-ae28-4912-916a-c98065de194d.png) |
