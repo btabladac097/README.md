@@ -71,4 +71,9 @@
 | ping páginaweb.com  | Description | ![image](https://user-images.githubusercontent.com/106645591/183232471-3f1d49b4-f480-4893-ac3f-4e92555a3ea4.png)|
 | netstat  | Examina las conexiones de red, tablas de enrutamiento y configuración de la red. | ![image](https://user-images.githubusercontent.com/106645591/183232491-a98b01a2-58b4-4d87-b66a-4396ff5a6948.png)|
 | iperf  | Realiza un análisis y medición del rendimiento de los hosts, además de mostrar el ancho de banda entre estos. | ![image](https://user-images.githubusercontent.com/106645591/183232521-48fc970f-66f9-4a35-9cd6-fdd7a7dc8f9c.png) |
+| ps -u  | Muestra los procesos del usuario | ![image](https://user-images.githubusercontent.com/106645591/183232979-5f5cca69-b533-4f81-a5bf-82ab418eb341.png)|
+| ps  | Lista los procesos del PID, datos de usuario actual, tiempo, idenficador del proceso y comando usado. | ![image](https://user-images.githubusercontent.com/106645591/183233003-52b09e82-d0c8-4e35-bcb5-21e860181c23.png)|
+| Command  | Description | Photos |
+| Command  | Description | Photos |
+| Command  | Description | Photos |
 | Command  | Description | Photos |
