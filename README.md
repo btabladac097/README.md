@@ -66,3 +66,9 @@
 | kill -9$PID  | Mata un proceso en la terminal | ![image](https://user-images.githubusercontent.com/106645591/180883909-8fbe7a3c-44c8-436d-afd9-e25287f6ba8f.png) |
 | ps -aux | Muestra los procesos que se están llevando a cabo actualmente | ![image](https://user-images.githubusercontent.com/106645591/180883938-e910e5e5-75dd-4901-8529-fb2c2fd57f0c.png) |
 | pwd | Muestra el directorio actual | ![image](https://user-images.githubusercontent.com/106645591/180883984-53065bc4-1c08-41f1-8a08-47f8ed852354.png) |
+| ip addr show  | Muestra diversidad de datos relacionados a la dirección IP | ![image](https://user-images.githubusercontent.com/106645591/183232315-f24cd496-1a68-46f5-82e2-a4835dd7c2a5.png)|
+| nmap  | Determina cuáles sistemas se encuentran en línea, detecta los OS y los servicios. | ![image](https://user-images.githubusercontent.com/106645591/183232452-15ddcd39-93c7-47eb-a79c-d3b1c7e94bdc.png)|
+| ping páginaweb.com  | Description | ![image](https://user-images.githubusercontent.com/106645591/183232471-3f1d49b4-f480-4893-ac3f-4e92555a3ea4.png)|
+| netstat  | Examina las conexiones de red, tablas de enrutamiento y configuración de la red. | ![image](https://user-images.githubusercontent.com/106645591/183232491-a98b01a2-58b4-4d87-b66a-4396ff5a6948.png)|
+| iperf  | Realiza un análisis y medición del rendimiento de los hosts, además de mostrar el ancho de banda entre estos. | ![image](https://user-images.githubusercontent.com/106645591/183232521-48fc970f-66f9-4a35-9cd6-fdd7a7dc8f9c.png) |
+| Command  | Description | Photos |
