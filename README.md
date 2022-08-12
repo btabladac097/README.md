@@ -50,19 +50,19 @@
 | alias  | Le pone un nombre alternativo o un alias a un comando específico. | ![image](https://user-images.githubusercontent.com/106645591/178372098-629363db-36c5-4733-9ed1-c0521ffa5c2e.png) |
 | sudo chmod 777 *archivo*  | Cambiar permisos de administrador. | ![image](https://user-images.githubusercontent.com/106645591/178372146-7bed7887-9625-4651-be9a-3a9560006188.png) |
 | cat /proc/meminfo | Ver información de la memoria | ![image](https://user-images.githubusercontent.com/106645591/178168658-9d80a8d5-91a5-40e5-9d85-c51bf7888682.png)|
-| for file in /proc/*/status ; do awk '/VmSwap"líneavertical"Name/{printf $2 " " $3}END{ print ""}' $file;done "líneavertical" sort -k 2 -n -r "líneavertical"less | Menciona cuánto está gastando de memoria virtual cada proceso | Photos |
+| for file in /proc/*/status ; do awk '/VmSwap"líneavertical"Name/{printf $2 " " $3}END{ print ""}' $file;done "líneavertical" sort -k 2 -n -r "líneavertical"less | Menciona cuánto está gastando de memoria virtual cada proceso |![image](https://user-images.githubusercontent.com/106645591/184278435-3bad23f5-f7c4-46dd-8b67-1caca1f4b89d.png) |
 | free -h  | Muestra un cuadro indicando información de la memoria y del swap | ![image](https://user-images.githubusercontent.com/106645591/178169451-c75dd650-95b9-452e-94bc-aee36bc9a422.png) |
 | swapon | Comando que activa el swap | ![image](https://user-images.githubusercontent.com/106645591/178169543-c2adc628-b7c9-4a53-83d0-8a77d3be6119.png) |
 | swapoff | Comando que desactiva el swap | ![image](https://user-images.githubusercontent.com/106645591/178169565-23b1794a-7824-49df-8467-fe70ee6b2cdb.png) | 
-| cat/proc/sys/vm/swappiness  | Indica cuánto está utilizando el sistema operativo de memoria swamp | Photos |
+| cat /proc/sys/vm/swappiness  | Indica cuánto está utilizando el sistema operativo de memoria swamp |![image](https://user-images.githubusercontent.com/106645591/184278753-be0e2696-2be7-4bac-ad9d-4f841dc8a7db.png)|
 | sudo sysctl vm.swappiness=45  | Cambiar el valor del swampiness | ![image](https://user-images.githubusercontent.com/106645591/179872580-d7042b3c-0e47-42a6-8925-fc6f8c54fae2.png)|
 | sudo mkdir /mnt/ram_disk  | Crea una carpeta para montar el RAM Disk | ![image](https://user-images.githubusercontent.com/106645591/179872785-e96112a7-891e-4490-8f17-e9f204878fb5.png) |
-| sudo mount -t tmpfs -o size=1024m new_ram_disk /mnt/ram_disk  | Monta el RAM Disk en la carpeta /mnt/ram_disk | Photos |
-| apt-get install volatility  | Crea un archivo que tiene todo el contenido de la memoria RAM | Photos |
+| sudo mount -t tmpfs -o size=1024m new_ram_disk /mnt/ram_disk  | Monta el RAM Disk en la carpeta /mnt/ram_disk |![image](https://user-images.githubusercontent.com/106645591/184278926-3b50883d-ce40-4f2a-afdf-1c802466ae6d.png)|
+| apt-get install volatility  | Crea un archivo que tiene todo el contenido de la memoria RAM |![image](https://user-images.githubusercontent.com/106645591/184279618-63acc9b8-1fc1-4a31-9665-8e2905be460c.png)|
 | df -h  | Muestra el espacio que se ha usado en el disco | ![image](https://user-images.githubusercontent.com/106645591/180883126-1c5e8399-bcc2-425c-b680-c006f175453d.png)|
 | mount  | Montaje de dispositivos en el sistema de archivos | ![image](https://user-images.githubusercontent.com/106645591/180883635-a8a69317-ba12-4450-97cb-5fc947dcbb53.png)|
-| Gparted  | Administra las particiones | Photos |
-| gnome-disk-utility  | Muestra la información sobre el disco | Photos |
+| Gparted  | Administra las particiones |![image](https://user-images.githubusercontent.com/106645591/184279836-ad553aa9-1075-486c-bf91-edf2538565b4.png)|
+| gnome-disk-utility  | Muestra la información sobre el disco |![image](https://user-images.githubusercontent.com/106645591/184280022-22b3413e-22a9-4e65-8773-a120d2bf75b2.png)|
 | kill -9$PID  | Mata un proceso en la terminal | ![image](https://user-images.githubusercontent.com/106645591/180883909-8fbe7a3c-44c8-436d-afd9-e25287f6ba8f.png) |
 | ps -aux | Muestra los procesos que se están llevando a cabo actualmente | ![image](https://user-images.githubusercontent.com/106645591/180883938-e910e5e5-75dd-4901-8529-fb2c2fd57f0c.png) |
 | pwd | Muestra el directorio actual | ![image](https://user-images.githubusercontent.com/106645591/180883984-53065bc4-1c08-41f1-8a08-47f8ed852354.png) |
