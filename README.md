@@ -75,5 +75,20 @@
 | ps  | Lista los procesos del PID, datos de usuario actual, tiempo, idenficador del proceso y comando usado. | ![image](https://user-images.githubusercontent.com/106645591/183233003-52b09e82-d0c8-4e35-bcb5-21e860181c23.png)|
 | chmod | Cambia los permisos de administrador a escrituras, lecturas o ejecuciones. | ![image](https://user-images.githubusercontent.com/106645591/184280289-8b37356b-9ee6-491e-a344-356f1ab4b669.png) |
 | chown | Cambia el propietario de un archivo. | ![image](https://user-images.githubusercontent.com/106645591/184280413-e95719e1-282f-4444-8427-eb817783db7e.png)|
+| docker images  | Lista las imágenes por nombre y tag. |![image](https://user-images.githubusercontent.com/106645591/184682508-f8340fe8-e81e-4402-8b4e-3ca35d6a1511.png)|
+| docker pull  | Instala la imagen que se desea obtener de docker. | ![image](https://user-images.githubusercontent.com/106645591/184682396-b451e1d1-6570-4a42-b10f-4d0e691e35ec.png) |
+| docker ps -a  | Lista las imágenes que están ejecutándose en el momento. | ![image](https://user-images.githubusercontent.com/106645591/184683120-bfeec11f-35a9-4d09-b069-71365bc1a8d3.png) |
+| docker history  | Muestra el historial de las imágenes. | ![image](https://user-images.githubusercontent.com/106645591/184683592-26279530-4e21-487c-b41d-fddcc0edb56d.png) |
+| docker info  | Muestra información detallado con respecto a la instalaciones de Docker.| ![image](https://user-images.githubusercontent.com/106645591/184683702-681cc200-b0b0-4e9e-9ada-cb236803c46c.png) |
+| uname -a  | Determina el nivel de vrsión del kernel. | ![image](https://user-images.githubusercontent.com/106645591/184683930-f9741501-bace-4b42-9ca0-2ccbaa7b3d47.png) |
+| docker run  | Pone un contenedor específico a ejecutarse. | ![image](https://user-images.githubusercontent.com/106645591/184684267-2cc7dbca-b78c-49c2-8dbc-f3fae95fa801.png) |
+| docker network ls  | Lista las redes de Docker. | ![image](https://user-images.githubusercontent.com/106645591/184684389-0ba692a7-a81f-4995-84ee-54df1c595ef5.png) |
+| docker network create --driver bridge red1  | Crea un puente de conexión a la red1 | ![image](https://user-images.githubusercontent.com/106645591/184684838-ef9ab18a-dc3b-49e8-9047-a7357391eb63.png) |
+| docker version  | Muestra la versión actual de Docker. | ![image](https://user-images.githubusercontent.com/106645591/184684943-1dcaa434-de38-4448-bbb4-8a7d65faba35.png) |
+| docker stop  | Detiene las imágenes que están en función. | ![image](https://user-images.githubusercontent.com/106645591/184685197-63a61954-025a-4766-b2c7-e852086d3cb7.png) |
+| docker ps -aq  | Remueve los contenedores. | ![image](https://user-images.githubusercontent.com/106645591/184685497-87e9d2ea-f694-499d-9b3a-35b7f6ef05fc.png) |
+| docker images -aq  | Remueve todas las imágenes. | ![image](https://user-images.githubusercontent.com/106645591/184685739-3ec4dac7-cb05-41d7-ad80-92484eb58b3c.png) |
+| docker fin ./  | Description | Photos |
+| docker build  | Description | Photos |
 | Command  | Description | Photos |
 | Command  | Description | Photos |
