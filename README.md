@@ -88,7 +88,8 @@
 | docker stop  | Detiene las imágenes que están en función. | ![image](https://user-images.githubusercontent.com/106645591/184685197-63a61954-025a-4766-b2c7-e852086d3cb7.png) |
 | docker ps -aq  | Remueve los contenedores. | ![image](https://user-images.githubusercontent.com/106645591/184685497-87e9d2ea-f694-499d-9b3a-35b7f6ef05fc.png) |
 | docker images -aq  | Remueve todas las imágenes. | ![image](https://user-images.githubusercontent.com/106645591/184685739-3ec4dac7-cb05-41d7-ad80-92484eb58b3c.png) |
-| docker fin ./  | Description | Photos |
-| docker build  | Description | Photos |
-| Command  | Description | Photos |
-| Command  | Description | Photos |
+| docker build  | Construye una imagen desde el Dockefile | ![image](https://user-images.githubusercontent.com/106645591/184780363-d35dc5bc-19ba-4971-9039-d3f385576dde.png) |
+| docker-compose  | Agrega el output de cada contenedor. | ![image](https://user-images.githubusercontent.com/106645591/184780728-7ea25d45-9ba1-4701-bf6e-32e2244a0ec0.png) |
+| docker service rm web1 | Remueve servicios específicos desde el swarm. | ![image](https://user-images.githubusercontent.com/106645591/184780953-20f9b98d-f6a9-4560-9cb9-afa09a6fde34.png) |
+| vim Dockerfile  | Es un archivo de la sintaxis de Vim de Docker para la Dockerfile.. | ![image](https://user-images.githubusercontent.com/106645591/184781345-a1f2b438-5674-40e3-b1af-c7c1dfdfa63d.png) |
+| ls /tmp  | Lista los contenidos de los directorios | ![image](https://user-images.githubusercontent.com/106645591/184781934-246dc95c-7ba0-4a63-a8ab-e94d45ad6e0b.png) |
